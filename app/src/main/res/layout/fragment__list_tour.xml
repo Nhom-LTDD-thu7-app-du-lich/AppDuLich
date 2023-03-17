@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="vertical">
 
-    >
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
                 android:layout_height="120dp"
                 android:layout_marginStart="20dp"
                 android:src="@drawable/chau_doc"
-                />
+                tools:ignore="DuplicateIds" />
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -45,6 +45,177 @@
                     android:textSize="16dp"
                     android:text="Giá: 3.500.000đ"/>
 
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/img_tour"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/chua_vinh_trang"
+                tools:ignore="DuplicateIds" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/vinh_trang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chùa vĩnh trang 2 ngày 1 đêm"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/vinh_trang_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+                    android:textSize="16dp"
+                    android:text="Giá: 3.500.000đ"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/img_tour"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/du_lich_can_gio"
+                tools:ignore="DuplicateIds" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/can_gio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cần Giờ 2 ngày 1 đêm"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/can_gio_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+                    android:textSize="16dp"
+                    android:text="Giá: 2.800.000đ"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/img_tour"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/du_lich_cao_bang"
+                tools:ignore="DuplicateIds" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/cao_bang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cao Bằng 3 ngày 2 đêm"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/cao_bang_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+                    android:textSize="16dp"
+                    android:text="Giá: 5.200.000đ"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/img_tour"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/du_lich_da_lat"
+                tools:ignore="DuplicateIds" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/da_lat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đà Lạt 4 ngày 3 đêm"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/da_lat_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+                    android:textSize="16dp"
+                    android:text="Giá: 7.500.000đ"/>
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
